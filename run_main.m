@@ -2,14 +2,13 @@ clear; clc; close all;
 
 
 run_num = 1;
-exp_id = 'result_170218_1626';
 
 data_select = {'gaussian',...
                 'sea',...
                 'hyperP',...
-                'rotcb',...
-                'elec2',...
-                'noaa'};
+                'checkerboard',...
+                'electricity',...
+                'weather'};
 
 
 for data_i = 1:length(data_select)
@@ -29,10 +28,6 @@ for run_i = 1:run_num
     t_dwmil(run_i) = toc;
 end
 
-save_path = ['result/' exp_id '/' data_select{data_i}];
-if exist(save_path,'dir') == 0
-    mkdir(save_path);
-end
 
 fprintf('auc: %f, gm: %f\n',mean([result_dwmil.auc]),mean([result_dwmil.gm]));
 
