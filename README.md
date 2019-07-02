@@ -6,7 +6,11 @@ Author: [Yang Lu](https://jasonyanglu.github.io/)
 
 Contact: lylylytc@gmail.com
 
+## Run
 
+Run run_main_dwmil.m in matlab. 
+
+The scripts for running the compared methods are also provided. Please include the folder "compared_methods" and "matlab weka interface" into the path.
 
 ## Paper
 
