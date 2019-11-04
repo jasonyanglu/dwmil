@@ -1,6 +1,8 @@
 ## Introduction
 
-Matlab code for DMWIL (Dynamic Weighted Majority for Incremental Learning)
+Matlab code for DWMIL (Dynamic Weighted Majority for Incremental Learning)
+
+The python version of DWMIL is included in the extended work [ACDWM](https://github.com/jasonyanglu/ACDWM).
 
 Author: [Yang Lu](https://jasonyanglu.github.io/)
 
